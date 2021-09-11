@@ -29,4 +29,4 @@ else
 {
    write-host "TLS 1.2 has not been enabled. Script will be terminated. Be sure to enable TLS 1.2 before you proceed." 
 }
-Write-host "Finished script. Please verify results on https://www.ssllabs.com/ssltest/analyze.html" -fore green
+Write-host "Finished script. Please restart your server and verify the results on https://www.ssllabs.com/ssltest/analyze.html" -fore green
